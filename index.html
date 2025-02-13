@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #282c34;
+            color: #ffffff;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+            color: #61dafb;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            padding: 20px 40px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            background: #333;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .menu a:hover {
+            background: #61dafb;
+            color: #333;
+        }
+
+        .logo {
+            display: block;
+            margin: 0 auto 20px;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: url('logo.png') no-repeat center center;
+            background-size: cover;
+        }
+
+        .intro {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo"></div>
+        <h1>Đấu Trường Chân Lý</h1>
+        <div class="menu">
+            <a href="trang_con_1.html">Giới Thiệu</a>
+            <a href="trang_con_2.html">Chiến Lược</a>
+            <a href="trang_con_3.html">Kinh Nghiệm</a>
+        </div>
+        <p class="intro">Đấu Trường Chân Lý - Chiến Thuật Đỉnh Cao Xây Dựng Đội Hình, Đối Đầu Đỉnh Cao Khám Phá Chiến Lược, Chinh Phục Đấu Trường</p>
+    </div>
+</body>
+</html>
